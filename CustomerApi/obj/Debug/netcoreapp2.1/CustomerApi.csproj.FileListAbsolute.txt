@@ -1,0 +1,14 @@
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\bin\Debug\netcoreapp2.1\CustomerApi.deps.json
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\bin\Debug\netcoreapp2.1\CustomerApi.runtimeconfig.json
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\bin\Debug\netcoreapp2.1\CustomerApi.runtimeconfig.dev.json
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\bin\Debug\netcoreapp2.1\CustomerApi.dll
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\bin\Debug\netcoreapp2.1\CustomerApi.pdb
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.csprojAssemblyReference.cache
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.csproj.CoreCompileInputs.cache
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.RazorAssemblyInfo.cache
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.RazorAssemblyInfo.cs
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.AssemblyInfoInputs.cache
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.AssemblyInfo.cs
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.RazorTargetAssemblyInfo.cache
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.dll
+C:\Users\cihan\Desktop\Source\CustomerApi\CustomerApi\obj\Debug\netcoreapp2.1\CustomerApi.pdb

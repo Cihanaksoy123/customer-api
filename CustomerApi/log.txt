@@ -1,0 +1,173 @@
+[05-06-2021 20:10:40]-User profile is available. Using 'C:\Users\cihan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[05-06-2021 20:10:40]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:10:40]-Policy execution successful.
+[05-06-2021 20:10:40]-Connection processing ended abnormally.
+[05-06-2021 20:10:41]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:10:41]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:10:41]-get method is called
+[05-06-2021 20:10:41]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:10:41]-Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:10:41]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 505.2962ms.
+[05-06-2021 20:10:41]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:10:41]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 705.7365ms
+[05-06-2021 20:10:41]-Request finished in 931.995ms 200 application/json; charset=utf-8
+[05-06-2021 20:13:22]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:13:22]-Policy execution successful.
+[05-06-2021 20:13:22]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:13:22]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:13:22]-get method is called
+[05-06-2021 20:13:22]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:13:22]-Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:13:22]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 38.6071ms.
+[05-06-2021 20:13:22]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:13:22]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 43.2791ms
+[05-06-2021 20:13:22]-Request finished in 54.3174ms 200 application/json; charset=utf-8
+[05-06-2021 20:14:56]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:14:56]-Policy execution successful.
+[05-06-2021 20:14:56]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:14:56]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:14:56]-get method is called
+[05-06-2021 20:14:56]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:14:56]-Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:14:56]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.1748ms.
+[05-06-2021 20:14:56]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:14:56]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 7.7967ms
+[05-06-2021 20:14:56]-Request finished in 14.8835ms 200 application/json; charset=utf-8
+[05-06-2021 20:19:44]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:19:44]-Policy execution successful.
+[05-06-2021 20:19:44]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:19:44]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:19:44]-get method is called
+[05-06-2021 20:19:44]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:19:44]-Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:19:44]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.1738ms.
+[05-06-2021 20:19:44]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:19:44]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 10.7637ms
+[05-06-2021 20:19:44]-Request finished in 14.276ms 200 application/json; charset=utf-8
+[05-06-2021 20:19:44]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:19:44]-Policy execution successful.
+[05-06-2021 20:19:44]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:19:44]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:19:44]-get method is called
+[05-06-2021 20:19:44]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:19:44]-Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:19:44]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.877ms.
+[05-06-2021 20:19:44]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:19:44]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 6.6931ms
+[05-06-2021 20:19:44]-Request finished in 10.4862ms 200 application/json; charset=utf-8
+[05-06-2021 20:19:47]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:19:47]-Policy execution successful.
+[05-06-2021 20:19:47]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:19:47]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:19:47]-get method is called
+[05-06-2021 20:19:47]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:19:47]-Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:19:47]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.2904ms.
+[05-06-2021 20:19:47]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:19:47]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 9.6655ms
+[05-06-2021 20:19:47]-Request finished in 12.596ms 200 application/json; charset=utf-8
+[05-06-2021 20:19:49]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:19:49]-Policy execution successful.
+[05-06-2021 20:19:49]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:19:49]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:19:49]-get method is called
+[05-06-2021 20:19:49]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:19:49]-Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:19:49]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6794ms.
+[05-06-2021 20:19:49]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:19:49]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 10.0698ms
+[05-06-2021 20:19:49]-Request finished in 14.5065ms 200 application/json; charset=utf-8
+[05-06-2021 20:20:03]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:20:03]-Policy execution successful.
+[05-06-2021 20:20:03]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:20:03]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:20:03]-get method is called
+[05-06-2021 20:20:03]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:20:03]-Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:20:03]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.0576ms.
+[05-06-2021 20:20:03]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:20:03]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 7.4519ms
+[05-06-2021 20:20:03]-Request finished in 11.6224ms 200 application/json; charset=utf-8
+[05-06-2021 20:26:33]-User profile is available. Using 'C:\Users\cihan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[05-06-2021 20:26:33]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:26:33]-Policy execution successful.
+[05-06-2021 20:26:33]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:26:33]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:26:33]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:26:34]-Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:26:34]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 330.0106ms.
+[05-06-2021 20:26:34]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:26:34]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 468.0772ms
+[05-06-2021 20:26:34]-Request finished in 603.5558ms 200 application/json; charset=utf-8
+[05-06-2021 20:32:52]-User profile is available. Using 'C:\Users\cihan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[05-06-2021 20:32:53]-Request starting HTTP/1.1 DEBUG http://localhost:51269/  0
+[05-06-2021 20:33:02]-Connection processing ended abnormally.
+[05-06-2021 20:33:02]-Request finished in 8475.8593ms 200 
+[05-06-2021 20:33:03]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:33:03]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:33:03]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:33:04]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:33:04]-Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:33:04]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 659.7816ms.
+[05-06-2021 20:33:04]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:33:04]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 1013.2007ms
+[05-06-2021 20:33:04]-Request finished in 1356.174ms 200 application/json; charset=utf-8
+[05-06-2021 20:33:04]-Request starting HTTP/1.1 GET http://localhost:44389/favicon.ico  
+[05-06-2021 20:33:04]-Request finished in 1.7863ms 404 
+[05-06-2021 20:33:13]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:33:13]-Policy execution successful.
+[05-06-2021 20:33:13]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:33:13]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:33:13]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:33:13]-Executed DbCommand (166ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:33:13]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 171.3496ms.
+[05-06-2021 20:33:13]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:33:13]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 222.6796ms
+[05-06-2021 20:33:13]-Request finished in 240.9119ms 200 application/json; charset=utf-8
+[05-06-2021 20:33:48]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:33:48]-Policy execution successful.
+[05-06-2021 20:33:48]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:33:48]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:33:48]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:33:48]-Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:33:48]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.8794ms.
+[05-06-2021 20:33:48]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:33:48]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 65.2488ms
+[05-06-2021 20:33:48]-Request finished in 118.2455ms 200 application/json; charset=utf-8
+[05-06-2021 20:35:01]-User profile is available. Using 'C:\Users\cihan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[05-06-2021 20:35:01]-Request starting HTTP/1.1 GET http://localhost:44389/Customer/GetCustomers  
+[05-06-2021 20:35:01]-Policy execution successful.
+[05-06-2021 20:35:01]-Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CustomerApi.Models.Customer]] GetCustomers() on controller CustomerApi.Controllers.CustomerController (CustomerApi).
+[05-06-2021 20:35:01]-Executing action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) - Validation state: Valid
+[05-06-2021 20:35:01]-Entity Framework Core 2.1.14-servicing-32113 initialized 'CustomerDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[05-06-2021 20:35:02]-Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Lastname], [c].[Name], [c].[PhoneNumber]
+FROM [Customer] AS [c]
+[05-06-2021 20:35:02]-Executed action method CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 324.5746ms.
+[05-06-2021 20:35:02]-Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerApi.Models.Customer, CustomerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[05-06-2021 20:35:02]-Executed action CustomerApi.Controllers.CustomerController.GetCustomers (CustomerApi) in 453.2155ms
+[05-06-2021 20:35:02]-Request finished in 612.6893ms 200 application/json; charset=utf-8
